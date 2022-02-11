@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+	<SpecificScenarios>
+		<SpecificScenario>
+            <Name>UserClustering</Name>
+            <Arguments>
+				<Argument>
+                    <Name>clusterNum</Name>
+                    <Value>6</Value>
+                </Argument>
+				<Argument>
+                    <Name>expireDays</Name>
+                    <Value>30</Value>
+                </Argument>
+            </Arguments>
+        </SpecificScenario>
+        <SpecificScenario>
+            <Name>TagCB</Name>
+            <Arguments>
+                <Argument>
+                    <Name>product</Name>
+                    <Value>itemRank</Value>
+                </Argument>
+                <Argument>
+                    <Name>expireDays</Name>
+                    <Value>6</Value>
+                </Argument>
+            </Arguments>
+        </SpecificScenario>
+    </SpecificScenarios>
+</CONFIG>
